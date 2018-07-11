@@ -1,0 +1,558 @@
+/* start main css style */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 90px;
+    font-family: 'Alegreya Sans SC', sans-serif
+}
+
+/* end main css style */
+
+/* start nav */
+.navbar {
+    margin-bottom: 0;
+    padding: 20px 0;
+    border: none
+}
+.navbar-default .navbar-brand {
+    color: #392F2F !important;
+    font-size: 35px
+}
+.navbar-default .navbar-nav>li>a {
+    color: #392F2F;
+    font-size: 19px;
+    transition: all .3s ease-in-out
+}
+/*.navbar-default .navbar-nav>li>a:hover {
+    color: #47A279 !important;
+}
+/* end nav */
+
+/* start header */
+.header {
+    background: url(../images/102057_5.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #392F2F;
+    position: relative
+}
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+.header p {
+    width: 50%;
+}
+
+/* end header */
+/* start our dooing */
+.our-doing {
+    background: rgb(251, 251, 251);
+    color: #392F2F;
+    position: relative;
+    padding-bottom: 100px;
+}
+.our-doing .images-do {
+    padding: 200px 0
+}
+.our-doing .img {
+    height: 100px;
+    width: 250px;
+}
+.our-doing .img-top {
+    border: none;
+    position: absolute;
+    top: 69%;
+    left: 18%;
+}
+.our-doing .img img {
+    border: none;
+    border-radius: 30px
+}
+.our-doing .img-top img {
+    padding: 15px;
+}
+/* end our dooing */
+/* start circle progress */
+.project-done {
+    position: relative;
+    padding-bottom: 50px;
+    background-color: #ebebeb
+}
+.project-done .circle {
+    position: relative;
+}
+.project-done .circle .circle-val {
+    position: absolute;
+    left: 27%;
+    top: 35%;
+    font-size: 4rem;
+    
+}
+.circle-main p {
+    font-size: 30px;
+    margin-right: 50px;
+}
+/* end circle progress */
+/* start about-us */
+.about-us {
+    padding: 10px 0 30px;
+}
+.about-us h2 {
+    font-size: 43px;
+    padding: 29px 0 0 30px
+}
+.about-us .btn-main {
+    border: 3px solid #fff;
+    padding: 5px 50px;
+    font-size: 22px;
+}
+.about-us .btn-main:hover {
+    background-color: rgba(237, 237, 237, 0.8);
+    color: #47A279;
+    border: 3px solid #63b28f;
+}
+/* end about-us */
+
+/* start services */
+.services {
+    padding-bottom: 30px
+}
+.services h3 {
+    padding: 10px 0 0 30px
+}
+.services .img-services {
+    position: relative;
+}
+.services .img-service {
+    width: 250px;
+    position: absolute;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 7px
+}
+.services .img-service:first-of-type {
+    top: 55px;
+    left: 13%;
+    border: 7px solid #47A279;
+    width: 262px;
+    height: 262px;
+}
+.services .img-service:nth-of-type(2) {
+    top: 2px;
+    left: 2px;
+}
+.services .img-service:last-of-type {
+    top: 140px;
+    right: -12px;
+}
+/* end services */
+
+/* start latest-news */
+.latest-news {
+    padding-bottom: 30px;
+    background-color: #ECECEC
+}
+.latest-news .news {
+    padding: 17px;
+    background-color: #fff;
+    margin: 17px;
+    transition: all .4s ease-in-out
+}
+.latest-news .news:nth-of-type(2)  {
+    box-shadow: 10px 15px 31px #a2a2a2
+}
+.latest-news .news h3 {
+    font-size: 27px;
+}
+.latest-news .news .main-text {
+    font-size: 20px;
+    padding: 10px 0
+}
+.latest-news .news .more {
+    font-size: 22px;
+    padding: 10px 0
+}
+
+/* end latest-news */
+/* start subscribe */
+.subscribe {
+    padding-bottom: 30px;
+    background: url(../images/trendutstallning_007.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px
+}
+.subscribe .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(241,241,241, .6)
+}
+.subscribe h2 {
+    padding: 110px 0 10px;
+}
+.subscribe p {
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: #444D53
+}
+.subscribe input[type=email] {
+    border: 2px solid #47a279;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    position:absolute;
+    left: 33%
+}
+.subscribe input[type=submit] {
+    border: none;
+    padding: 4.5px 50px;
+    font-size: 22px;
+    position:absolute;
+    left: 55%
+}
+/* end subscribe */
+
+/* start portfolio */
+.portfolio {
+    padding-bottom: 30px;
+    background-color: #F4F4F4
+}
+.portfolio .dropdown, .dropup {
+    padding: 20px
+}
+.portfolio .btn{
+    padding: 10px 20px;
+    background: #47a279;
+    color: #f4f4f4;
+    font-size: 18px;
+}
+.portfolio .dropdown-menu {
+    left: 38%;
+    top: 75%;
+    padding-bottom: 0 !important;
+    background-color: rgba(71, 162, 121, 0.6);
+}
+.portfolio .dropdown-menu li {
+    padding: 3px 8px !important;
+    font-size: 21px !important;
+}
+.portfolio .dropdown-menu li a {
+    color: #f4f4f4 !important;
+    transition: all 0.5s ease-in-out
+}
+.portfolio ul li:hover a {
+    color: #47A279 !important
+}
+.portfolio .port-title h2{
+    padding: 120px 0 0 
+}
+.portfolio .port-title ul {
+    padding-bottom: 45px;
+}
+.portfolio ul li {
+    padding: 5px 12px;
+    font-size: 27px
+}
+.portfolio ul li a {
+    color: #392F3B;
+    text-decoration: none
+}
+.portfolio .image-port {
+    background-color: #ececec;
+    padding: 5px 0;
+    margin: 5px 0
+}
+.portfolio .image-port img {
+    width: 100%
+}
+.portfolio .image-port img:hover {
+    
+}
+/* end  portfolio */
+/* start testimonials */
+.testimonials {
+    padding-bottom: 110px;
+    background-color: #fcfcfc
+}
+.testimonials h2 {
+    padding: 120px 0 0
+}
+.testimonials .carousel {
+    padding: 20px 0
+}
+.testimonials .carousel ol {
+    bottom: -40px
+}
+.testimonials .carousel ol li {
+    background: rgb(71, 162, 121);;
+    border: 1px solid #ccc;
+    
+}
+testimonials .carousel-inner .item {
+    position: relative;
+    padding: 50px 0;
+}
+.testimonials .carousel-inner .item i {
+    position: absolute;
+    color: rgba(71, 162, 121, 0.5);
+    font-size: 5rem;
+    font-weight: bold
+}
+.testimonials .carousel-inner .item i:first-of-type {
+    left: 2%
+}
+.testimonials .carousel-inner .item i:last-of-type {
+    right: 5%
+}
+.testimonials .item p {
+    font-size: 25px;
+    color: #333;
+    padding: 0;
+}
+.testimonials .item>p:first-of-type {
+    padding: 80px 0 30px;
+    font-size: 30px
+}
+.testimonials .item p.main-color {
+    color: #47a279;
+}
+/* end testimonials */
+/* start contact us */
+.contact {
+    padding-bottom: 110px;
+    background-color: #f4f4f4
+}
+.contact h2{
+    padding:120px 0 29px 0px
+}
+.contact input{
+    width: 35%;
+    display: inline-block;
+    padding: 25px;
+    font-size: 20px;
+    margin: 5px 10px;
+    border: 3px solid #EAE8E9;
+    background: #F9F7F8
+}
+.contact textarea {
+    width: 72%;
+    margin: 15px 0;
+    background: #F9F7F8;
+    border: 3px solid #EAE8E9
+}
+.contact input:last-of-type {
+    background-color: rgb(71, 162, 121);
+    border: none;
+    padding: 5px 0;
+    width: 30%;
+    font-size: 30px;
+}
+/* end contact us */
+/* start footer */
+.footer {
+    background: #EAEAEA
+}
+.footer .about-footer {
+    padding: 10px 20px
+    
+}
+.footer .about-footer p {
+    font-size: 18px;
+    color: #444D53
+}
+.footer h3 {
+    font-size: 27px;
+    padding: 20px 0;
+}
+.footer .about-footer i {
+    margin-right: 30px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer
+}
+.footer .about-footer i:hover {
+    color: #47A279
+} 
+.footer .copyright {
+    background: #F4F4F4;
+    padding: 30px 0;
+    font-size: 20px
+}
+/* end footer */
+
+/* start my framework style */
+.main-color {
+    color: #47A279 !important
+}
+.main-background {
+    background-color: #47A279;
+    color: #FBFDFC;
+}
+.btn-main {
+    padding: 10px 50px;
+    text-transform: capitalize;
+    font-size: 22px;
+    background-color: #47A279;
+    color: #FBFDFC;
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: all .5s ease-in-out;
+    margin-left: 30px
+}
+.btn-main:hover {
+    background-color: rgba(71, 162, 121, 0.8)
+}
+.main-text {
+    padding: 30px 0 10px 30px;
+    line-height: 1.8;
+    font-size: 15px;
+    color: #444D53
+}
+.main-h2 {
+    font-size: 50px;
+    padding: 120px 0 40px 30px
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(241,241,241, .6)
+}
+
+/* end my framework style */
+/* start media */
+@media (max-width: 678px) {
+    .header {
+        height: 120vh
+    }
+    .header p {
+        width: 100%; 
+    }
+    .our-doing {
+        padding-bottom: 50px;
+    }
+    .our-doing .images-do {
+        padding: 50px 0;
+        
+    }
+    .our-doing .img {
+        width: 100%;
+        height: 50%
+    }
+    .our-doing .img-top{
+        position: relative;
+        top: 0;
+        left:0
+    }
+    .contact input {
+        display: block;
+        width: 100%
+    }
+    .contact textarea {
+        margin: 15px 10px;
+        width: 100%
+    }
+    .contact input:last-of-type {
+        width: 75%;
+        margin: 5px auto;
+    }
+    .footer .about-footer i {
+        margin: 5% 15% 9% 4%;
+    }
+    .portfolio .dropdown-menu {
+    left: 13%
+    }
+}
+@media (max-width: 991px) {
+    .our-doing .images-do {
+        padding: 50px 0;
+       
+    }
+    .our-doing .img {
+        width: 100%;
+        height: 50%;
+        text-align: center
+    }
+    .our-doing .img img {
+        width: 100%
+    }
+    .our-doing .img-top{
+        position: static
+    }
+    .our-doing .img-top img {
+        padding: 0
+    }
+    .project-done {
+        text-align: center
+    }
+    .project-done .circle .circle-val {
+        left: 45%
+    }
+    .circle-main p {
+        margin-right: auto
+    }
+    .about-us {
+        text-align: center
+    }
+    .services .img-service {
+        position: static
+    }
+    .latest-news .news {
+        margin: 0;
+    }
+    .latest-news .news {
+        margin: 20px auto
+    }
+    .subscribe {
+        text-align: center;
+        min-height: 450px
+    }
+    .subscribe input[type=email] {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    position: static
+    }
+    .subscribe input[type=submit] {
+    font-size: 22px;
+    position: static;
+    display: block;
+    margin: 10px auto;
+    }
+    
+}
+@media (min-width: 992px) {
+    .latest-news .news {
+        padding: 17px;
+        background-color: #fff;
+        width: 30.333333%;
+        transition: all .4s ease-in-out;
+        margin: 12px
+    }
+}
+@media (min-width: 1900px) {
+    .latest-news .news {
+        padding: 17px;
+        background-color: #fff;
+        width: 30.333333%;
+        transition: all .4s ease-in-out;
+        margin: 17px 
+}
+/* end media */
